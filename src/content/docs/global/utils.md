@@ -3,7 +3,7 @@ title: Utils
 description: Useful helper Functions available in KS
 ---
 
-The `UTILS` Global Object is a helper Object and provides very many useful helper Functions
+The `UTILS` Global Object is a helper Object that provides many useful utility Functions.
 
 ## Color Conversions
 

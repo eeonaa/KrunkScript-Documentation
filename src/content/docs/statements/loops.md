@@ -3,7 +3,7 @@ title: Loops
 description: Loop functionality in KS
 ---
 
-There are three types of loops in KrunkScript, `for` loops, `while` loops, and recursion
+There are three types of loops in KrunkScript: `for` loops, `while` loops, and recursion.
 
 ## For Loop
 

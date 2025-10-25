@@ -3,9 +3,11 @@ title: Objects
 description: Obj Type available in KS
 ---
 
-The `obj` Type is KrunkScripts implementation of TypeScripts [string](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html) Type
+The `obj` Type is KrunkScript's equivalent of the [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) type in JavaScript.
 
 ## Object Creation
+
+Objects can be created with initializers, [similar to JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer):
 
 ```krnk
 # Unlike arrays, objects do not need to be prefixed by the type they are being populated with
@@ -17,8 +19,12 @@ obj object = {
     array: num[1, 2, 3],
     object: { string: "Nested Objects!" }
 };
+```
 
-# However, when writing and reading objects, you might need to cast the value beforehand
+Properties can also be read from and written to:
+
+```
+# When writing and reading objects, you might need to cast the value beforehand
 
 (num) object.number += 10;  # Casting needed
 object.string = "Goodbye!"; # No casting needed

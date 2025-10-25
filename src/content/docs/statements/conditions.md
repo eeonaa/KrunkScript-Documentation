@@ -3,7 +3,7 @@ title: Conditions
 description: Condition functionality in KS
 ---
 
-KrunkScript contains multiple different types of Conditional checking, the main being the `If Else` Condition 
+KrunkScript contains multiple different types of Conditional checking.
 
 ## If Else Condition
 
@@ -37,7 +37,7 @@ if (!!value) {
 
 # Some examples
 if ((10 < 5) || (5 == 10)) {
-    # wont run
+    # won't run
 }
 
 str test = "ab";

@@ -3,7 +3,7 @@ title: Functions
 description: Function functionality in KS
 ---
 
-The `action` Type is KrunkScripts implementation of generic Functions in programming
+The `action` Type is KrunkScript's equivalent of Functions in other programming languages.
 
 ## Creating Functions
 

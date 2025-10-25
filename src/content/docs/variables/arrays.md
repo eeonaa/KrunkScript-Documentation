@@ -3,7 +3,7 @@ title: Arrays
 description: Array functionality available in KS
 ---
 
-Arrays in KS are handled quite differently compared to most other languages, using many KS specific Keywords and Types
+Arrays in KS are handled quite differently compared to most other languages, and use many KS-specific Keywords and Types.
 
 ## Non-Nested Arrays
 

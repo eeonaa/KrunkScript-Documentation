@@ -3,8 +3,9 @@ title: Shared
 description: Shared Type functionality available in KS
 ---
 
-All Types in KS share some basic functionality. Most are edgecases and helper Functions
+All Types in KS share basic functionality.
 
+<!-- this would fit better in a section dedicated to variable declarations, and other syntax stuff -->
 ## Naming Rules
 
 ```krnk

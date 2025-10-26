@@ -28,6 +28,10 @@ export default defineConfig({
 					label: 'Global Functions',
 					autogenerate: { directory: 'global' },
 				},
+				{
+					label: 'Scene',
+					autogenerate: { directory: 'scene' },
+				},
 			],
 			expressiveCode: {
 				shiki: {

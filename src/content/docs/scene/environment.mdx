@@ -1,0 +1,66 @@
+---
+title: Environment
+description: Modify the environment, such as the skybox and fog
+---
+import { Aside } from '@astrojs/starlight/components';
+
+`GAME.SCENE` contains some functions to assist with modifying the environment.
+
+## Skybox
+
+```krnk
+# single color
+# Set sky color (single color)
+GAME.SCENE.setSkyColor(
+    "#fff"
+);
+
+# gradient, and additional settings
+GAME.SCENE.setSkyDome(
+    "#fff",
+    "#fff",
+    "#fff",
+    {
+        texture: "27997",            # asset id
+        emissive: "#ff0000",         
+        emissiveTexture: "27998",    # asset id
+        textureMoveAxis: 0,          # 0 - 1 OR "x" - "y"
+        textureMoveSpeed: 0          # speed (-20 - 20)
+    };
+);
+
+# remove it
+GAME.SCENE.removeSkyDome();
+```
+
+## Fog
+
+```krnk
+GAME.SCENE.setFog(
+    "#fff",
+    100         # distance
+);
+```
+
+## Global lighting
+
+<Aside type="tip">
+    Global lighting can be costly performance-wise. As an alternative, you can place individual light objects around the map (todo link to page).
+</Aside>
+
+```krnk
+# Adjust the in-game sun
+GAME.SCENE.setSkyLight(
+    "#fff",
+    2,          # light intensity (0 - 3)
+    20,         # sun angle x (0 - 360)
+    20,         # sun angle y (0 - 360)
+    100         # light distance (10 - 15000)
+);
+
+# Adjust the in-game ambient light
+GAME.SCENE.setAmbientLight(
+    "#fff",
+    2           # light intensity (0 - 3)
+);
+```

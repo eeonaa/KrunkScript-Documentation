@@ -23,7 +23,7 @@ obj object = {
 
 Properties can also be read from and written to:
 
-```
+```krnk
 # When writing and reading objects, you might need to cast the value beforehand
 
 (num) object.number += 10;  # Casting needed
